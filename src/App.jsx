@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "/src/components/navbar/Navbar.jsx";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Cart from "./pages/Cart/Cart";
-import PlaceOrder from "./pages/PlaceOrder/PlaceOrder";
-import Footer from "./components/Footer/Footer";
-import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
-import LoginPopup from "./components/LoginPopup/LoginPopup";
+import Home from "/src/pages/Home/Home";
+import Cart from "/src/pages/Cart/Cart";
+import PlaceOrder from "/src/pages/PlaceOrder/PlaceOrder";
+import Footer from "/src/components/Footer/Footer";
+import ScrollToTop from "/src/components/ScrollToTop/ScrollToTop";
+import LoginPopup from "/src/components/LoginPopup/LoginPopup";
 const App = () => {
   const [showLogin, setShowLogin] = useState(false);
   return (
