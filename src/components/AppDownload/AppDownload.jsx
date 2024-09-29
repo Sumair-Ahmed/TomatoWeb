@@ -1,5 +1,5 @@
 import React from "react";
-import "./AppDownload.css";
+import "/src/components/AppDownload/AppDownload.css";
 import { assets } from "../../assets/assets";
 const AppDownload = () => {
   return (
